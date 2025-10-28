@@ -23,10 +23,10 @@ stock-prediction-app/
 ├── README.md                         # This file
 │
 ├── models/                           # Trained models (after training)
-│   ├── AAPL_lstm_model.keras
-│   ├── AAPL_gru_model.keras
-│   ├── AAPL_scaler.pkl
-│   └── AAPL_metadata.pkl
+│   ├── TICKER_lstm_model.keras
+│   ├── TICKER_gru_model.keras
+│   ├── TICKER_scaler.pkl
+│   └── TICKER_metadata.pkl
 │
 └── notebooks/                        # Jupyter notebooks
     └── model_training.ipynb
@@ -313,14 +313,6 @@ If the app is slow:
 
 This project is for educational purposes only. Not financial advice.
 
-## 🤝 Contributing
-
-Feel free to:
-- Report bugs
-- Suggest features
-- Improve documentation
-- Submit pull requests
-
 ## 📧 Support
 
 For issues or questions:
@@ -328,26 +320,6 @@ For issues or questions:
 2. Review Yahoo Finance ticker format
 3. Verify all dependencies are installed
 4. Check Python version (3.8+)
-
-## 🎓 Learning Resources
-
-- **LSTM Networks**: Understanding Long Short-Term Memory Networks
-- **Time Series Forecasting**: Applied Time Series Analysis
-- **Streamlit Documentation**: https://docs.streamlit.io
-- **yfinance Documentation**: https://pypi.org/project/yfinance/
-
-## 🔮 Future Enhancements
-
-Potential features to add:
-- [ ] Multi-stock comparison
-- [ ] Portfolio optimization
-- [ ] Sentiment analysis integration
-- [ ] Real-time notifications
-- [ ] Export predictions to CSV
-- [ ] Ensemble model predictions
-- [ ] Backtesting functionality
-- [ ] Custom time ranges for prediction
-- [ ] Support for more exchanges
 
 ## ⚠️ Disclaimer
 
@@ -360,9 +332,3 @@ Stock market prediction is inherently uncertain. This tool should NOT be used as
 - Never invest more than you can afford to lose
 
 The developers assume no responsibility for financial losses incurred through use of this application.
-
----
-
-**Version**: 1.0.0  
-**Last Updated**: October 2025  
-**Python Version**: 3.8+
